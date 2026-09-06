@@ -51,6 +51,16 @@ def speckit_info(bundle_id: str) -> str:
     """Lê os detalhes de um bundle específico do spec-kit."""
     return run_specify_cmd(["bundle", "info", bundle_id])
 
+@mcp.tool()
+def speckit_validate(path: str) -> str:
+    """Modo Autor: Valida a integridade estrutural de um bundle local no caminho especificado."""
+    return run_specify_cmd(["bundle", "validate", "--path", path])
+
+@mcp.tool()
+def speckit_build(path: str) -> str:
+    """Modo Autor: Empacota um bundle local no caminho especificado, gerando um arquivo .zip versionado."""
+    return run_specify_cmd(["bundle", "build", "--path", path])
+
 if __name__ == "__main__":
     # Roda o servidor usando o protocolo standard (stdio) exigido pelo MCP
     mcp.run()

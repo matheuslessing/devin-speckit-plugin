@@ -1,0 +1,10 @@
+{
+  "hooks": [
+    {
+      "events": ["UserPromptSubmit"],
+      "type": "command",
+      "command": "python",
+      "args": ["scripts/drift_check.py"]
+    }
+  ]
+}
