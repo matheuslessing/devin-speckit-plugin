@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "speckit-native": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp",
+        "mcp_server/server.py"
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "devin-speckit-plugin",
   "version": "1.0.0",
-  "description": "Integração oficial do github/spec-kit (Spec-Driven Development) para sessões do Devin.",
+  "description": "Integração oficial do github/spec-kit (Spec-Driven Development) para sessões do Devin. Inclui Servidor MCP Nativo para acesso aos catálogos.",
   "author": "Matheus (via Antigravity)",
-  "keywords": ["spec-kit", "sdd", "planning", "traceability"]
+  "keywords": ["spec-kit", "sdd", "planning", "traceability", "mcp"]
 }
